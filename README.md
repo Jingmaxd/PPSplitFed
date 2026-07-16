@@ -1,9 +1,9 @@
 # PPSplitFed
 This is the code repository for our paper "PPSplitFed: Privacy-preserving Splitfed Learning via Functional Encryption". (https://ieeexplore.ieee.org/abstract/document/11494442)
 
-This scheme is based on SplitFed(https://github.com/chandra2thapa/SplitFed-When-Federated-Learning-Meets-Split-Learning) and NN-EMD(https://github.com/irxyzzz/nn-emd).
-
 Abstract—Federated learning (FL) and split learning (SL) are two emerging distributed learning mechanisms that enable model training without sharing the local data. The integration of FL and SL, called splitfed learning (SFL), reduces the training burden on the client side and parallelizes the model train ing to achieve efficient distributed model optimization without sharing the local data and the whole global model. Currently, concerns about the privacy leakage risks of splitfed learning have garnered much attention, but effective solutions have not yet been fully explored. We propose a novel privacy-preserving splitfed learning framework, named PPSplitFed, that guarantees the confidentiality of the intermediate parameters to protect data and model privacy. By designing a secure model training algorithm based on single-input functional encryption and a secure model aggregation algorithm based on multi-input functional encryption, PPSplitFed achieves secure model optimization. We describe the implementations of PPSplitFed on Multi-layer Perceptron (MLP) and Convolutional Neural Network (CNN) models and compare the performance with centralized learning (CL), FL, SL, SFL, and the state-of-the-art privacy-preserving SFL scheme, as well as privacy-preserving model training scheme on multi-sourced datasets. The experimental results show that PPSplitFed is effective and efficient with reduced computation and communication costs while maintaining the model accuracy.
 
 Citation:
 Ma J, Lyu X, Yu Y, Sigg S. PPSplitFed: Privacy-Preserving Splitfed Learning via Functional Encryption[J]. IEEE Transactions on Emerging Topics in Computing, 2026.
+
+This scheme is based on SplitFed(https://github.com/chandra2thapa/SplitFed-When-Federated-Learning-Meets-Split-Learning) and NN-EMD(https://github.com/irxyzzz/nn-emd).
