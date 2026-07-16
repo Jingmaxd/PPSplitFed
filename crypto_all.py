@@ -16,6 +16,7 @@ eta = 3200 #MLP
 #system parameters
 p, q, r, g, sec_param = load_sec_param_config('crypto/sec_param_config.json')
 #for MLP model, one small dlog table is enough
+#use generate_config_files00 in utils.py to generate dlog_table_config.json
 dlog=load_dlog_table_config('crypto/dlog_table_config.json')
 dlog_table=dlog['dlog_table']
 
